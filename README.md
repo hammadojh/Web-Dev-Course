@@ -18,3 +18,11 @@ This repostory contains all of the supporting material that the instructor refer
 
 ## Questions? 
 send them to omarjh@kfupm.edu.sa
+
+# Lectures Contents 
+
+## Lecture 1: Introduction
+
+### Links
+- [Midjourney: The tool I use to show off](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)) 
+- [Can ChatGPT Teach Me How To Code Better Than Courses?](www.codecademy.com)
