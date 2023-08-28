@@ -24,5 +24,5 @@ send them to omarjh@kfupm.edu.sa
 ## Lecture 1: Introduction
 
 ### Links
-- [Midjourney: The tool I use to show off](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)
+- [Midjourney: The tool I use to show off](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)) 
 - [Can ChatGPT Teach Me How To Code Better Than Courses?](www.codecademy.com)
