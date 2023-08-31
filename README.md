@@ -34,7 +34,7 @@ Motivating the learner and Introduing some course policies.
 - Read & Ask
 
 ## Lecture 2: Internet Basics for Web Dev
-Motivating the learner and Introduing some course policies.
+History and concepts about the web & internet 
 
 ### Links
 - [The story of Tim](https://webfoundation.org/about/vision/history-of-the-web)
