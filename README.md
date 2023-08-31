@@ -22,7 +22,32 @@ send them to omarjh@kfupm.edu.sa
 # Lectures Contents 
 
 ## Lecture 1: Introduction
+Motivating the learner and Introduing some course policies.
 
 ### Links
 - [Midjourney: The tool I use to show off](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F)
 - [Can ChatGPT Teach Me How To Code Better Than Courses?](www.codecademy.com)
+
+### Class Activities
+- Group discussion
+- Live poll
+- Read & Ask
+
+## Lecture 2: Internet Basics for Web Dev
+Motivating the learner and Introduing some course policies.
+
+### Links
+- [The story of Tim](https://webfoundation.org/about/vision/history-of-the-web)
+- [Knighted in 2004](https://www.britannica.com/biography/Tim-Berners-Lee)
+- [CERN](https://home.web.cern.ch/)
+- [XML came after HTML](https://www.xml.com/pub/a/w3j/s3.connolly.html)
+- [What is a markup language](https://en.wikipedia.org/wiki/Markup_language)
+- [Hypertext history](https://www.nngroup.com/articles/hypertext-history/)
+- [The proposal](https://www.w3.org/History/1989/proposal.html)
+- [Pow research](https://www.pewresearch.org/internet/2014/03/11/world-wide-web-timeline/)
+- [the first website](http://info.cern.ch)
+- [History of the internet](https://www.computerhistory.org/internethistory/)
+
+### Class Activities 
+- Setup Github
+- Research & Present
