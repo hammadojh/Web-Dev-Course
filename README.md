@@ -16,6 +16,19 @@ This repostory contains all of the supporting material that the instructor refer
 - PDF Handouts
 - ... more will be added
 
+## References 
+The following resources are used to prepare the lectures
+
+### Books
+- [Internet & World Wide Web How to Program](https://www.amazon.com/Internet-World-Program-Harvey-Deitel/dp/0273764020/ref=sr_1_3?keywords=internet+and+world+wide+web+how+to+program&qid=1693896711&s=books&sprefix=internet+and+world+%2Cstripbooks%2C316&sr=1-3&ufe=app_do%3Aamzn1.fos.f5122f16-c3e8-4386-bf32-63e904010ad0)
+- [Fundamentals of Web Development](https://www.amazon.com/Fundamentals-Web-Development-Randy-Connolly/dp/0134481267/ref=pd_lpo_sccl_1/137-7326209-2451811?pd_rd_w=U97Vh&content-id=amzn1.sym.116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_p=116f529c-aa4d-4763-b2b6-4d614ec7dc00&pf_rd_r=39N2E1FX3JRDHFB2Q5R4&pd_rd_wg=dGM3f&pd_rd_r=2f7bffbd-fdc3-4262-9702-317d22d66fa2&pd_rd_i=0134481267&psc=1)
+- [HTML & CSS: Design & Build websites](https://www.amazon.com/HTML-CSS-Design-Build-Websites/dp/1118008189/ref=sr_1_1?keywords=html+and+css+design+and+build+websites&qid=1693896738&s=books&sprefix=html+%26+css+de%2Cstripbooks%2C242&sr=1-1)
+
+### Websites
+- [MDN Web Docs](https://developer.mozilla.org/en-US/)
+- [W3Schools](https://www.w3schools.com/)
+- [CodeCademy](https://www.codecademy.com/resources/docs)
+
 ## Questions? 
 send them to omarjh@kfupm.edu.sa
 
@@ -32,6 +45,8 @@ Motivating the learner and Introduing some course policies.
 - Group discussion
 - Live poll
 - Read & Ask
+
+---
 
 ## Lecture 2: Internet Basics for Web Dev
 History and concepts about the web & internet 
@@ -51,3 +66,20 @@ History and concepts about the web & internet
 ### Class Activities 
 - Setup Github
 - Research & Present
+
+---
+
+## Lecture 3: HTML (Part 1)
+Basics of HTML
+
+### Reading Material 
+- Chapter 2 of Internet & World Wide Web
+
+### Links
+- [Moziila Developer](https://developer.mozilla.org/)
+- [Basics of git & github](https://www.codecademy.com/article/francineblanc/how-to-use-git-for-beginners)
+- [Using Git with VSCode](https://www.youtube.com/watch?v=i_23KUAEtUM)
+
+### Class Activities 
+- Build your own website
+- Push it to github
