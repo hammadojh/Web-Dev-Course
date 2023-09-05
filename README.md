@@ -32,6 +32,8 @@ The following resources are used to prepare the lectures
 ## Questions? 
 send them to omarjh@kfupm.edu.sa
 
+---
+
 # Lectures Contents 
 
 ## Lecture 1: Introduction
@@ -45,8 +47,6 @@ Motivating the learner and Introduing some course policies.
 - Group discussion
 - Live poll
 - Read & Ask
-
----
 
 ## Lecture 2: Internet Basics for Web Dev
 History and concepts about the web & internet 
@@ -66,8 +66,6 @@ History and concepts about the web & internet
 ### Class Activities 
 - Setup Github
 - Research & Present
-
----
 
 ## Lecture 3: HTML (Part 1)
 Basics of HTML
