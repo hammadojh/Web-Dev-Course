@@ -32,8 +32,6 @@ The following resources are used to prepare the lectures
 ## Questions? 
 send them to omarjh@kfupm.edu.sa
 
----
-
 # Lectures Contents 
 
 ## Lecture 1: Introduction
