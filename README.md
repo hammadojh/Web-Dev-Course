@@ -81,3 +81,29 @@ Basics of HTML
 ### Class Activities 
 - Build your own website
 - Push it to github
+
+## Lecture 4: HTML (Part 2)
+Advanced HTML
+
+### Reading Material 
+- Chapter 3 of Internet & World Wide Web
+
+### Links
+- [Designing WEb Forms UX](https://www.nngroup.com/articles/web-form-design/) 
+
+### Class Activities 
+- Building a table
+- Building a form
+- Refactor to Semantic Web
+
+## Lecture 5: CSS (Part 1)
+Overview of CSS
+
+### Reading Material 
+- Chapter 4 of Internet & World Wide Web
+
+### Links
+- [1 html, many css](https://www.w3schools.com/css/demo_default.htm)https://www.w3schools.com/css/demo_default.htm
+
+### Class Activities 
+- Make your website dark
