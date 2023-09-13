@@ -1,0 +1,110 @@
+body {
+  font-family:sans-serif;
+  color:#3e4749;
+}
+
+
+p {
+  color:black;
+}
+
+th {
+  text-transform:uppercase;
+}
+
+a {
+  color: #ff4b01;
+}
+
+.top {
+  background-color:#ff4b01;
+}
+
+em {
+  color:#faa000;
+}
+
+#the_most_important {
+  text-transform:uppercase;
+}
+
+h1,h2,h3 {
+  text-transform:capitalize;
+}
+
+h2 {
+  border-bottom:1px solid #3e4749;
+}
+
+h2+p:first-letter {
+  font-size:x-large;
+}
+
+th,td{
+  padding:4px;
+}
+
+table, th, td{
+    border: 1px solid #3e4749;
+    border-collapse:collapse;
+}
+
+tbody tr:hover, tbody tr:hover td{
+  background-color:#faa000;
+}
+
+header {
+  background-color: #879499;
+  padding: 40px;
+  color:white;
+}
+
+ul {
+  padding:0px;
+}
+
+nav li {
+  display:inline;
+  margin-left: 8px;
+}
+
+nav ul li:first-child {
+  text-decoration:underline;
+  color:#3e4749;
+}
+
+nav ul li:first-child a{
+  text-decoration:underline;
+  color:#3e4749;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #879499;
+}
+
+::selection {
+  background-color: #ff4b01;
+}
+
+a:hover {
+  cursor:pointer;
+}
+
+input {
+  height:30px;
+}
+
+input:not([type="submit"]){
+  border: 2px solid gray;
+}
+
+input[name="message"]{
+  height:50px;
+}
+
+.product{
+  background-color: rgba(135,148,153,0.2);
+  padding: 16px;
+  margin: 16px 0px;
+  border-radius: 8px; 
+}
