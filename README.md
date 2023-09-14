@@ -105,3 +105,19 @@ Overview of CSS
 
 ### Class Activities 
 - Make your website dark
+
+## Lecture 6: CSS (Part 2)
+- CSS Selectors, Colors & Box Model.
+
+### Reading Material 
+- Chapter 4 of Internet & World Wide Web
+
+### Links
+- [Adobe colors](color.adobe.com)
+- [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors
+- [Box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model)https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model
+- [CSS colors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors)https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors 
+
+### Class Activities 
+- Make your moodboard
+- Apply CSS to your website
