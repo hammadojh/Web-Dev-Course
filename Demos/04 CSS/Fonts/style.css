@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: Inter;
+    padding: 0px;
+}
+
+main {
+    padding: 0px 32px;
+}
+
+img {
+    width: 100%;
+    max-width: 1000px;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 18vw;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+h2{ 
+    font-size: 1.5rem;
+}
+
+.date{
+    color: #6941C6;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 20px; 
+}
+
+.blog-post .tags li{
+    display: inline;
+    color: #6941C6;
+    text-align: center;
+    /* Text sm/Medium */
+    font-size: 0.875rem;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    padding: 2px 10px;
+    background-color: #F9F5FF;
+    border-radius: 16px;
+}
+
+ul {
+    padding-left: 0px;;
+}
+
+.blog-post > *{
+    margin: 12px 0px;
+}
+
+footer{
+    margin:32px;
+}
+
+footer a {
+    display: block;
+    text-align: center;
+    font-size: 0.875em;
+    margin-bottom: 14px;
+    text-decoration: none;
+    color: #1A1A1A;
+}
