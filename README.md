@@ -121,3 +121,25 @@ Overview of CSS
 ### Class Activities 
 - Make your moodboard
 - Apply CSS to your website
+
+## Lecture 7: CSS (Part 3)
+- CSS Typography & Animation.
+
+### Reading Material 
+- Chapter 5 of Internet & World Wide Web
+
+### Links
+- [figma.com](https://figma.com)
+- [airbnb](airbnb.com)
+- [thmaniyah](thmanyah.com)
+- [MDN > Shorthand Props](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
+- [MDN > values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+- [Google Fonts](https://fonts.google.com/)
+- [Awwwards](awwwards.com)
+- [Animation](codepen.io/aashu11267/pen/pojBxvP)
+- [Understanding Motion](https://m2.material.io/design/motion/understanding-motion.html)
+
+### Class Activities 
+- Create a figma account
+- Choose a UI Kit
+- Apply the fonts to your website
