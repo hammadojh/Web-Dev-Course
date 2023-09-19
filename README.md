@@ -7,14 +7,14 @@ Welcome to the Web Engineering and Development Course.
 This course introduces the basics of Web development and engineering. It will be offered by Dr. Omar Hammad in King Fahd University of Petroleum and Minerals for ICS/SWE junior students in Fall 2023. 
 
 ## The lecture videos
-The lecture videos are available in this youtube channel <ADD_CHANNEL>
+The lecture videos are available in the [Web Engineering & Development](https://www.youtube.com/playlist?list=PLGNvUlVaYL4YMZ4l_yvvAYMOEOZ22xyme) youtube playlist 
 
 ## Contents of the repository
 This repostory contains all of the supporting material that the instructor refer to in the course lectures. They include:
 - Exercise files 
 - Links to articles
 - PDF Handouts
-- ... more will be added
+- Lecture videos (links)
 
 ## References 
 The following resources are used to prepare the lectures
@@ -124,6 +124,9 @@ Overview of CSS
 
 ## Lecture 7: CSS (Part 3)
 - CSS Typography & Animation.
+
+### Lecture Video Link
+- [CSS Animation](https://www.youtube.com/watch?v=JX6LQKS6rek&list=PLGNvUlVaYL4YMZ4l_yvvAYMOEOZ22xyme&index=1)
 
 ### Reading Material 
 - Chapter 5 of Internet & World Wide Web
