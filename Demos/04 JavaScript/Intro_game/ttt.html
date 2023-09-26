@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .cell {
+            font-family: sans-serif;
+            font-size: larger;
+            font-weight: bolder;
+            background-color: beige;
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .cell:hover{
+            background-color: blanchedalmond;
+        }
+
+        .row {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="turn">
+        Now it's is X turn
+    </h1>
+    <!-- Board -->
+    <div class="board">
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <script>
+            // controll turns 
+            let turn = 0
+            let letter = "X"
+
+            // add letters
+            document.querySelector(".board").addEventListener("click", play_turn)
+            
+            function play_turn(e) {
+
+                //get target
+                cell = e.target
+
+                //add the letter
+                textElement = document.createTextNode(`${letter}`)
+                cell.appendChild(textElement)
+
+                //change turn
+                turn = (turn + 1) % 2;
+                console.log(turn)
+
+                //change letter
+                if (turn == 0) {
+                    letter = "X"
+                } else {
+                    letter = "O"
+                }
+
+                //change title
+                document.getElementById("turn").innerText = `Now it's ${letter} turn`
+
+            }
+
+            //some effects
+            document.querySelector(".cell").addEventListener("hover")
+
+        </script>
+    </div>
+</body>
+
+</html>
