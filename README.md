@@ -101,7 +101,7 @@ Overview of CSS
 - Chapter 4 of Internet & World Wide Web
 
 ### Links
-- [1 html, many css](https://www.w3schools.com/css/demo_default.htm)https://www.w3schools.com/css/demo_default.htm
+- [1 html, many css](https://www.w3schools.com/css/demo_default.htm)
 
 ### Class Activities 
 - Make your website dark
@@ -109,14 +109,14 @@ Overview of CSS
 ## Lecture 6: CSS (Part 2)
 - CSS Selectors, Colors & Box Model.
 
-### Reading Material 
+### Reading Material & Refs
 - Chapter 4 of Internet & World Wide Web
-
-### Links
-- [Adobe colors](color.adobe.com)
 - [CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors)https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_selectors
 - [Box model](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model)https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_box_model
 - [CSS colors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors)https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_colors 
+
+### Links
+- [Adobe colors](color.adobe.com)
 
 ### Class Activities 
 - Make your moodboard
@@ -128,21 +128,38 @@ Overview of CSS
 ### Lecture Video Link
 - [CSS Animation](https://www.youtube.com/watch?v=JX6LQKS6rek&list=PLGNvUlVaYL4YMZ4l_yvvAYMOEOZ22xyme&index=1)
 
-### Reading Material 
+### Reading Material & Refs
 - Chapter 5 of Internet & World Wide Web
+- [MDN > Shorthand Props](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
+- [MDN > values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
 ### Links
 - [figma.com](https://figma.com)
 - [airbnb](airbnb.com)
 - [thmaniyah](thmanyah.com)
-- [MDN > Shorthand Props](https://developer.mozilla.org/en-US/docs/Web/CSS/Shorthand_properties)
-- [MDN > values and units](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 - [Google Fonts](https://fonts.google.com/)
 - [Awwwards](awwwards.com)
 - [Animation](codepen.io/aashu11267/pen/pojBxvP)
 - [Understanding Motion](https://m2.material.io/design/motion/understanding-motion.html)
 
+## Lecture 8: CSS (Part 4)
+- CSS Layout, responsiveness and frameworks
+
+### Reading Material & Refs
+- Chapter 5 of Internet & World Wide Web
+- [MDN > Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox)https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+- [MDN > Position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
+- [MDN > Float](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats)
+
+### Links
+- [Web Traffic in SA](https://www.statista.com/statistics/1393363/saudi-arabia-mobile-s-share-of-web-traffic/)https://www.statista.com/statistics/1393363/saudi-arabia-mobile-s-share-of-web-traffic/
+- [FroggyBox](flexboxfroggy.com/)
+- [Viewport](w3schools.com/css/css_rwd_viewport.asp)
+- [wappalyzer.com](wappalyzer.com)
+- [Top CSS Frameworks](https://colorlib.com/wp/free-css3-frameworks/)
+- [Sass](https://sass-lang.com/)
+
 ### Class Activities 
-- Create a figma account
-- Choose a UI Kit
-- Apply the fonts to your website
+- Ideas exploration
+- Experience mobi
+- le layout without viewport
