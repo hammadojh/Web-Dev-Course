@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Random Groups</title>
+    <style>
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            display: inline-block;
+        }
+
+        li::after{
+            content: ',';
+        }
+    </style>
+</head>
+<body>
+    <h1>Random Groups of Size 5</h1>
+    <textarea id="inputNumbers" rows="4" cols="50" placeholder="Enter numbers from 1 to 40, separated by lines"></textarea>
+    </br>
+    <button onclick="generateRandomGroups()">Generate Groups</button>
+    <div id="groups">
+        <!-- Groups will be displayed here -->
+    </div>
+
+    <script>
+        function generateRandomGroups() {
+            // Clear previous groups
+            document.getElementById('groups').innerHTML = '';
+
+            // Read numbers from the textarea and split by spaces
+            const inputNumbersTextarea = document.getElementById('inputNumbers');
+            const inputNumbers = inputNumbersTextarea.value.split('\n');
+
+            // Convert the input strings to numbers and filter out invalid entries
+            const numbers = inputNumbers
+                .map(Number)
+                .filter(number => !isNaN(number) && number >= 1 && number <= 40);
+
+            if (numbers.length < 5) {
+                alert('Please enter at least 5 valid numbers.');
+                return;
+            }
+
+            // Shuffle the array randomly
+            for (let i = numbers.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [numbers[i], numbers[j]] = [numbers[j], numbers[i]];
+            }
+
+            // Divide the shuffled array into groups of size 5
+            const groups = [];
+            while (numbers.length > 0) {
+                groups.push(numbers.splice(0, 5));
+            }
+
+            // Display the groups on the page
+            const groupsContainer = document.getElementById('groups');
+            groups.forEach((group, index) => {
+                const groupElement = document.createElement('ul');
+                group.forEach(number => {
+                    const listItem = document.createElement('li');
+                    listItem.textContent = number;
+                    groupElement.appendChild(listItem);
+                });
+                groupsContainer.appendChild(groupElement);
+            });
+        }
+    </script>
+</body>
+</html>
