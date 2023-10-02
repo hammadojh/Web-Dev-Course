@@ -41,34 +41,3 @@ posts =
         tags:["Design","Web Development","Responsive Design"]
     }
 ]
-
-// GENERATE Posts 
-
-let postsHTML = ``
-
-for (post of posts){
-
-    // generate tags 
-    tagsElement = `<ul class="tags">`
-    for (tag of post.tags) {
-        tagsElement += `<li><a>${tag}</a></li>`
-    }
-    tagsElement += `</ul>` 
-
-    // Generate the post
-    elementString = 
-    `<div class="blog-post">
-            <img src="${post.src}" alt="Sample Image">
-            <div class="date">${post.date.toDateString()}</div>
-            <h3>${post.title}</h3>
-            <p>${post.brief}</p>
-            <a href="${post.link}">Read More</a>
-            ${tagsElement}
-        </div>
-    `
-    //concat with postsHTML
-    postsHTML += elementString
-}
-
-//append the child to posts
-document.querySelector("#posts").innerHTML = postsHTML 
