@@ -183,3 +183,38 @@ Overview of CSS
 ### Class Activities 
 - Building a Game
 - Exploring Codepen.com
+
+## Lecture 10: JS (Part 2)
+- APIs, DOM, Events
+
+### Reading Material & Refs
+- Chapter 12, 13 of Internet & World Wide Web
+- [MDN > Intro to Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+- [MDN > Intro to Web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Introduction)
+- [MDN > Manuplating Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents)
+
+### Links
+- [MDN > Web APIs](https://developer.mozilla.org/en-US/docs/Web/API)
+- [github.com/public-apis](github.com/public-apis)
+- [MDN > Document](https://developer.mozilla.org/en-US/docs/Web/API/Document)
+- [MDN > Event](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+
+### Class Activities 
+- Explore Public APIs
+- Explore Browser APIs
+- Generate DOM Dynamically
+- Make game playable with KB
+
+## Lecture 11: JS (Part 3)
+- Fetch, Canvas
+
+### Reading Material & Refs
+- Chapter 14 of Internet & World Wide Web
+- [MDN > Fetch Data From the Server](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data)
+- [MDN > Drawing Graphics](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Drawing_graphics)
+
+### Links
+- [MDN > 3rd party APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs)
+
+### Class Activities
+- Demo Fetch
