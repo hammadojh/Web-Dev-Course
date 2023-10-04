@@ -163,3 +163,23 @@ Overview of CSS
 - Ideas exploration
 - Experience mobi
 - le layout without viewport
+
+## Lecture 9: JS (Part 1)
+- JS Intro, variables, conditions, loops, arrays
+
+### Reading Material & Refs
+- Chapter 6,7,8 & 10 of Internet & World Wide Web
+- [MDN > JS First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
+- [MDN > Making decisions in your code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/conditionals)
+- [MDN > Looping](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Looping_code)
+
+### Links
+- codepen.io
+- https://codepen.io/MysticReborn/full/rygqao
+- https://codepen.io/slyka85/pen/LbXYKQ
+- https://codepen.io/ste-vg/full/GRooLza
+- https://codepen.io/jshawl/pen/GRPQwRB
+
+### Class Activities 
+- Building a Game
+- Exploring Codepen.com
