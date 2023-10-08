@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <canvas></canvas>
+    <script>
+        canvas = document.querySelector("canvas")
+        canvas.width = window.innerWidth
+        canvas.height = window.innerHeight
+        ctx = canvas.getContext("2d")
+        ctx.fillStyle = "rgb(26,24,62)"
+        ctx.rect(0, 0, canvas.width, canvas.  height)
+        ctx.fill()
+
+
+        ctx.fillStyle = "rgb(255,255,255)"
+
+        // Loop 100 times to draw random filled circles
+        for (let i = 0; i < 100; i++) {
+            // Begin a new path for each circle
+            ctx.beginPath();
+
+            // Generate random coordinates within the canvas
+            const x = Math.random() * canvas.width;
+            const y = Math.random() * canvas.height;
+
+            // Generate a random radius between 0 and 10
+            const radius = Math.random() * 10;
+
+            // Create a filled circle
+            ctx.arc(x, y, radius, 0, Math.PI * 2, false);
+
+            // Generate a random RGB color
+            const red = Math.random() * 255;
+            const green = Math.random() * 255;
+            const blue = Math.random() * 255;
+
+            // Set the fill style to a random color
+            ctx.fillStyle = `rgb(${red},${green},${blue})`;
+
+            // Fill the circle with the random color
+            ctx.fill();
+        }
+
+    </script>
+</body>
+
+</html>

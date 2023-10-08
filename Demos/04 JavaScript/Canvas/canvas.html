@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        canvas {
+            background-color: black;
+            border-radius: 24px;
+            cursor:none;
+        }
+        p{
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <canvas ></canvas>
+    </div>
+    <script>
+
+        function degToRad(degrees) {
+            return degrees * Math.PI / 180;
+        };
+
+        const canvas = document.querySelector('canvas');
+        const width = canvas.width = window.innerWidth * 0.9;
+        const height = canvas.height = window.innerHeight * 0.9;
+        const ctx = canvas.getContext('2d');
+
+        ctx.fillStyle = "rgb(100,40,29)"
+        curX = 0
+        dirX = 1
+        curY = 0
+        dirY = 1
+        
+
+        function draw() {
+            // clear
+            ctx.fillStyle = "rgba(0,0,0,0.025)"
+            ctx.fillRect(0,0,width,height)
+
+            //draw
+            ctx.fillStyle = `rgb(${curX*curY%255},${curX*curY%255},${curX*curY%255})`
+            ctx.beginPath();
+            ctx.arc(curX, curY, 2, degToRad(0), degToRad(360), false);
+            ctx.fill();
+            ctx.clear
+
+            if (curX > width){
+                dirX = -1
+            }else if (curX < 0){
+                dirX = 1
+            }
+
+            if (curY > height){
+                dirY = -1
+            }else if (curY < 0){
+                dirY = 1
+            }
+
+            console.log(curX)
+            requestAnimationFrame(draw);
+        }
+
+        canvas.addEventListener("mousemove",(e)=>{
+            curX = e.clientX
+            curY = e.clientY
+        })
+
+        draw();
+
+
+
+    </script>
+</body>
+
+</html>

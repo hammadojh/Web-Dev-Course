@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Three.js basic cube example</title>
+    <script src="three.min.js"></script>
+</head>
+
+<body>
+    <script>
+        //Setup
+        
+        //scene
+        const scene = new THREE.Scene()
+        
+        //camera
+        const camera = new THREE.PerspectiveCamera();
+        camera.position.z = 20;
+        
+        //rendered
+        const renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight)
+        document.body.appendChild(renderer.domElement)
+
+        //light
+        const light = new THREE.AmbientLight("rgb(255,255,255)"); // soft white light
+        light.intensity = 1;
+        scene.add(light);
+
+        //obj 1
+        let obj1;
+        const geometry1 = new THREE.TorusKnotGeometry();
+        const material1 = new THREE.MeshNormalMaterial();
+        obj1 = new THREE.Mesh(geometry1, material1);
+        obj1.position.x = -2;
+        scene.add(obj1);
+
+        //obj 2
+        let obj2;
+        const geometry2 = new THREE.TorusKnotGeometry();
+        const material2 = new THREE.MeshToonMaterial();
+        material2.color = new THREE.Color("rgb(255,0,0)")
+        material2.shadowSide = THREE.DoubleSide;
+        material2.side = THREE.DoubleSide;
+        obj2 = new THREE.Mesh(geometry2, material2);
+        obj2.position.x = 2;
+        material2.castShadow = true;
+        material2.receiveShadow = true;
+        scene.add(obj2);
+
+        //light2
+        const light2 = new THREE.DirectionalLight(0xffffff, 1);
+        light2.castShadow = true;
+        light2.target = obj2;
+        scene.add(light2);
+
+        function draw(){
+            //random hex value for color 
+            obj1.rotation.x += 0.01
+            obj1.rotation.y += 0.02
+
+            obj2.rotation.x += 0.02
+            obj2.rotation.y -= 0.01
+
+            renderer.render(scene, camera);
+            requestAnimationFrame(draw)
+        }
+
+        draw()
+        
+    </script>
+</body>
+
+</html>

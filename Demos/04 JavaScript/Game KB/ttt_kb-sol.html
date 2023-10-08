@@ -34,7 +34,8 @@
             align-items: center;
         }
 
-        .cell:hover,.selected {
+        .cell:hover,
+        .selected {
             background-color: blanchedalmond;
         }
 
@@ -79,11 +80,55 @@
 
             // clicked event
             function cellClicked(event) {
+
                 let cell = event.target
                 addLetter(cell)
             }
 
-            //add letter
+            // move with KB
+            document.addEventListener("keydown", (e) => {
+                e.preventDefault()
+                if (e.code !== "Space"){
+                    moveSelected(e.code);
+                }else{
+                    cell = document.querySelector(".selected")
+                    addLetter(cell)
+                }
+                
+            })
+
+            //kb functions
+            function moveSelected(code) {
+
+                console.log(code)
+
+                //get current selected
+                current = document.querySelector(".selected")
+                next = null
+
+                switch (code) {
+                    case "ArrowRight":
+                        next = current.nextElementSibling
+                        break;
+                    case "ArrowLeft":
+                        next = current.previousElementSibling
+                        break;
+                    case "ArrowDown":
+                        next = current.nextElementSibling.nextElementSibling.nextElementSibling
+                        break;
+                    case "ArrowUp":
+                        next = current.previousElementSibling.previousElementSibling.previousElementSibling
+                        break;
+                }
+
+                //replace class
+                if (next != null) {
+                    current.classList.remove("selected")
+                    next.classList.add("selected")
+                }
+
+            }
+
             function addLetter(cell) {
                 cell.innerText = turn
                 if (gameEnded) {
@@ -97,12 +142,6 @@
                     turnLetter.innerText = turn
                 }
             }
-
-            // add event listener
-            document.addEventListener("keydown",(e)=>{
-                console.log("Key clicked")
-            })
-            
 
         </script>
     </div>
