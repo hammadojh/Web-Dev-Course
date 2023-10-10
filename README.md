@@ -215,6 +215,9 @@ Overview of CSS
 
 ### Links
 - [MDN > 3rd party APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs)
+- [Three.js](https://threejs.org/)
 
 ### Class Activities
 - Demo Fetch
+- Demo 2d
+- Demo 3d
