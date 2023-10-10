@@ -28,21 +28,25 @@
             const y = Math.random() * canvas.height;
 
             // Generate a random radius between 0 and 10
-            const radius = Math.random() * 10;
+            const radius = Math.random() * 50;
 
             // Create a filled circle
             ctx.arc(x, y, radius, 0, Math.PI * 2, false);
 
             // Generate a random RGB color
-            const red = Math.random() * 255;
-            const green = Math.random() * 255;
-            const blue = Math.random() * 255;
-
-            // Set the fill style to a random color
-            ctx.fillStyle = `rgb(${red},${green},${blue})`;
+            let red = Math.random() * 255;
+            let green = Math.random() * 255;
+            let blue = Math.random() * 255;
+            
+            // Generate a random RGB color
+            red = Math.random() * 255;
+            green = Math.random() * 255;
+            blue = Math.random() * 255;
+            ctx.strokeStyle = `rgb(0,${green},${blue})`;
 
             // Fill the circle with the random color
-            ctx.fill();
+            ctx.lineWidth = 2
+            ctx.stroke();
         }
 
     </script>

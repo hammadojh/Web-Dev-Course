@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <style>
+            body{
+                margin: 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <canvas></canvas>
+    </body>
+    <script>
+        //cvanvas setupo 
+        canvas = document.querySelector("canvas")
+        canvas.width = window.innerWidth
+        canvas.height = window.innerHeight
+        ctx = canvas.getContext("2d")
+        ctx.fillStyle = 'yellow'
+        ctx.fillRect(0,0,canvas.width,canvas.height)
+
+        //style
+        ctx.strokeStyle = 'black'
+        ctx.lineWidth = 2
+
+        // roof 
+        midX = canvas.width/2
+        ctx.beginPath()
+        ctx.moveTo(midX,0)
+        ctx.lineTo(midX+100,100)
+        ctx.lineTo(midX-100,100)
+        ctx.closePath()
+        ctx.stroke()
+
+        // house body 
+        ctx.strokeRect(midX-75,100,150,100)
+
+        // house body 
+        ctx.strokeRect(midX-50,150,25,50)
+
+        // draw the car
+        ctx.fillStyle = 'black'
+        ctx.fillRect(0,250,50,25)
+
+        // animate the car 
+        let x = 0
+        let dir = 1
+        function move(){
+            //clear current car
+            ctx.fillStyle = "yellow"
+            ctx.fillRect(x,250,50,25)
+
+            //draw new current car
+            ctx.fillStyle = "black"
+            x = x + dir
+            ctx.fillRect(x,250,50,25)
+
+            if (x >= canvas.width - 50){
+                dir = -1
+            }else if (x === 0){
+                dir = 1    
+            }
+
+            window.requestAnimationFrame(move)
+
+        }
+
+        move()
+
+    </script>
+</html>

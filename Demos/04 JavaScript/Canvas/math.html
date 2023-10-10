@@ -1,0 +1,169 @@
+<html>
+<style>
+    canvas {
+        border: 1px red solid;
+        display: inline-block;
+    }
+
+    form {
+        display: inline-block;
+    }
+</style>
+
+<body>
+    <canvas></canvas>
+    <!-- form to add nodes -->
+    <script>
+
+        // We create a class for each node within the tree
+        class Node {
+            // Each node has three properties, its value, a pointer that indicates the node to its left and a pointer that indicates the node to its right
+            constructor(value) {
+                this.value = value
+                this.left = null
+                this.right = null
+            }
+        }
+        // We create a class for the BST
+        class BinarySearchTree {
+            // The tree has only one property which is its root node
+            constructor() {
+                this.root = null
+            }
+            // The insert method takes a value as parameter and inserts the value in its corresponding place within the tree
+            insert(value) {
+                const newNode = new Node(value)
+                if (this.root === null) {
+                    this.root = newNode
+                    return this
+                }
+                let current = this.root
+                while (true) {
+                    if (value === current.value) return undefined
+                    if (value < current.value) {
+                        if (current.left === null) {
+                            current.left = newNode
+                            return this
+                        }
+                        current = current.left
+                    } else {
+                        if (current.right === null) {
+                            current.right = newNode
+                            return this
+                        }
+                        current = current.right
+                    }
+                }
+            }
+            // The find method takes a value as parameter and iterates through the tree looking for that value
+            // If the value is found, it returns the corresponding node and if it's not, it returns undefined
+            find(value) {
+                if (this.root === null) return false
+                let current = this.root,
+                    found = false
+                while (current && !found) {
+                    if (value < current.value) {
+                        current = current.left
+                    } else if (value > current.value) {
+                        current = current.right
+                    } else {
+                        found = true
+                    }
+                }
+                if (!found) return undefined
+                return current
+            }
+            // The contains method takes a value as parameter and returns true if the value is found within the tree
+            contains(value) {
+                if (this.root === null) return false
+                let current = this.root,
+                    found = false
+                while (current && !found) {
+                    if (value < current.value) {
+                        current = current.left
+                    } else if (value > current.value) {
+                        current = current.right
+                    } else {
+                        return true
+                    }
+                }
+                return false
+            }
+        }
+
+        // Tree 
+        tree = new BinarySearchTree()
+
+
+        //visualize
+        canvas = document.querySelector("canvas")
+        canvas.width = innerWidth
+        canvas.height = innerHeight
+        ctx = canvas.getContext("2d")
+
+
+        font_size = 16
+        red = 0
+        green = 255
+        i = 0
+        factor = 2
+        vDist = 30
+        xDist = 60
+        circle_size = 100
+        curX = 0
+        curY = 0
+
+        function drawNode(node, x, y, distance, color) {
+
+            
+
+            if (node !== null) {
+
+                //circle
+                ctx.beginPath()
+                ctx.ellipse(x, y, circle_size, circle_size, 0, 0, Math.PI * 2);
+                circle_color = color
+                ctx.fillStyle = circle_color
+                ctx.fill();
+
+                // make text white
+                ctx.font = `${font_size}px Arial`;
+                ctx.fillStyle = "white";
+                ctx.fillText(node.value, x - 5, y + 5);
+
+                if (node.left !== null) {
+                    ctx.moveTo(x - distance, y + vDist);
+                    setTimeout(() => {
+                        drawNode(node.left, x - distance, y + vDist, distance, 'black')
+                    }, 500);
+                    
+                    
+                }
+                if (node.right !== null) {
+                    ctx.moveTo(x + distance, y + vDist);
+                    setTimeout(() => {
+                        drawNode(node.right, x + distance, y + vDist, distance, 'red')
+                    }, 1000);
+                    
+                }
+
+            }
+        }
+
+        // add 100 random nodes 
+        for (let i = 0; i < 100; i++) {
+            const node = Math.floor(Math.random() * 100)
+            tree.insert(node)
+        }
+
+        circle_size = 20
+        setTimeout(() => {
+                drawNode(tree.root, canvas.width / 2, 30, xDist, 'red')
+        }, 500);
+        
+
+
+    </script>
+</body>
+
+</html>

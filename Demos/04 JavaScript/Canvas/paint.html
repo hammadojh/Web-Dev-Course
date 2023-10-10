@@ -39,7 +39,6 @@
         };
 
         // update sizepicker output value
-
         sizePicker.addEventListener('input', () => output.textContent = sizePicker.value);
 
         // store mouse pointer coordinates, and whether the button is pressed
@@ -60,9 +59,12 @@
             ctx.fillRect(0, 0, width, height);
         });
 
+        let size = 10
+
         function draw() {
-            if (pressed) {
-                ctx.fillStyle = colorPicker.value;
+            ctx.fillStyle = colorPicker.value;
+            
+            if (pressed){
                 ctx.beginPath();
                 ctx.arc(curX, curY - 85, sizePicker.value, degToRad(0), degToRad(360), false);
                 ctx.fill();
@@ -72,6 +74,7 @@
         }
 
         draw();
+
     </script>
 </body>
 
