@@ -1,0 +1,38 @@
+/* import google font Rubic */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+.event {
+    padding: 16px;
+    display: flex;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.event .content>* {
+    margin: 8px;
+}
+
+.event img {
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-left: 8px;
+}
+
+.event .details {
+    font-size: 0.75em;
+    color: #888;
+}
+
+.event .details .date {
+    margin-left: 4px;
+}
+
+.event .details .date::after {
+    content: "،";
+}
