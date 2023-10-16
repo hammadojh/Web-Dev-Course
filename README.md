@@ -221,3 +221,16 @@ Overview of CSS
 - Demo Fetch
 - Demo 2d
 - Demo 3d
+
+## Lecture 12: JS (Part 4)
+- Objects, Functions & RegEx
+
+### Reading Material & Refs
+- Chapter 9 & 11 of Internet & World Wide Web
+- [MDN > Introduction to Objects in JS](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects)
+- [MDN > Functions — reusable blocks of code](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions)
+
+### Links
+- [Build you function](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)
+- [JSON](https://json.org/) 
+- [Regex Game](https://regexone.com/)
