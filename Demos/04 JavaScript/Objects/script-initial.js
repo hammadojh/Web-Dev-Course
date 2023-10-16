@@ -1,7 +1,6 @@
 //fetch data from the api
 async function getEvents() {
     const res = await fetch("https://faaliat.sa/ar/events_api/year-events")
-    console.log(res)
     const data = await res.json()
     populateEvents(data.contents.events)
 }
@@ -21,22 +20,23 @@ function createEvent(event){
     let desc = bodyElement.querySelectorAll("p")[0].innerText
     let link = bodyElement.querySelectorAll("a")[0].href
 
-    let eventString = `
+    let eventString = 
+    `
     <img src="${event.image}" alt="">
-                <div class="content">
-                    <div class="details">
-                        <span class="date">
-                            من ${event.event_date.start_date} الى ${event.event_date.end_date}
-                        </span>
-                        <span class="location">
-                            ${event.city.name}
-                        </span>
-                    </div>
-                    <h2>
-                        ${event.title}
-                    </h2>
-                    <p>${desc}</p>
-                </div>
+    <div class="content">
+        <div class="details">
+            <span class="date">
+                من ${event.event_date.start_date} الى ${event.event_date.end_date}
+            </span>
+            <span class="location">
+                ${event.city.name}
+            </span>
+        </div>
+        <h2>
+            ${event.title}
+        </h2>
+        <p>${desc}</p>
+    </div>
     `
     let div = document.createElement("div")
     div.classList.add("event")
