@@ -223,7 +223,7 @@ Overview of CSS
 - Demo 3d
 
 ## Lecture 12: JS (Part 4)
-- Objects, Functions & RegEx
+- Objects, Functions
 
 ### Reading Material & Refs
 - Chapter 9 & 11 of Internet & World Wide Web
@@ -233,4 +233,13 @@ Overview of CSS
 ### Links
 - [Build you function](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)
 - [JSON](https://json.org/) 
+
+## Lecture 13: JS (Part 5)
+- RegEx, Frameworks
+
+### Reading Material & Refs
+- [MDN regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
+- [MDN > Understanding client-side JavaScript frameworks](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks)
+
+### Links
 - [Regex Game](https://regexone.com/)
