@@ -246,3 +246,16 @@ Overview of CSS
 
 ### Links
 - [Regex Game](https://regexone.com/)
+
+## Lecture 14: Web Engineering (Part 1)
+- What, Why, The Process, Arch.
+
+### Reading Material & Refs
+- Lectures > WebE > Reading Material
+
+## Lecture 15: Web Engineering (Part 2)
+- Web Apps Modeling
+
+### Reading Material & Refs
+- Lectures > WebE > Reading Material 
+
