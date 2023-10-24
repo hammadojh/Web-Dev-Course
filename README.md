@@ -49,6 +49,9 @@ Motivating the learner and Introduing some course policies.
 ## Lecture 2: Internet Basics for Web Dev
 History and concepts about the web & internet 
 
+### Reading Material 
+- Chapter 1 of Internet & World Wide Web
+
 ### Links
 - [The story of Tim](https://webfoundation.org/about/vision/history-of-the-web)
 - [Knighted in 2004](https://www.britannica.com/biography/Tim-Berners-Lee)
