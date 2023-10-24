@@ -49,6 +49,9 @@ Motivating the learner and Introduing some course policies.
 ## Lecture 2: Internet Basics for Web Dev
 History and concepts about the web & internet 
 
+### Reading Material 
+- Chapter 1 of Internet & World Wide Web
+
 ### Links
 - [The story of Tim](https://webfoundation.org/about/vision/history-of-the-web)
 - [Knighted in 2004](https://www.britannica.com/biography/Tim-Berners-Lee)
@@ -223,7 +226,7 @@ Overview of CSS
 - Demo 3d
 
 ## Lecture 12: JS (Part 4)
-- Objects, Functions & RegEx
+- Objects, Functions
 
 ### Reading Material & Refs
 - Chapter 9 & 11 of Internet & World Wide Web
@@ -233,4 +236,26 @@ Overview of CSS
 ### Links
 - [Build you function](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Build_your_own_function)
 - [JSON](https://json.org/) 
+
+## Lecture 13: JS (Part 5)
+- RegEx, Frameworks
+
+### Reading Material & Refs
+- [MDN regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions)
+- [MDN > Understanding client-side JavaScript frameworks](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks)
+
+### Links
 - [Regex Game](https://regexone.com/)
+
+## Lecture 14: Web Engineering (Part 1)
+- What, Why, The Process, Arch.
+
+### Reading Material & Refs
+- Lectures > WebE > Reading Material
+
+## Lecture 15: Web Engineering (Part 2)
+- Web Apps Modeling
+
+### Reading Material & Refs
+- Lectures > WebE > Reading Material 
+
