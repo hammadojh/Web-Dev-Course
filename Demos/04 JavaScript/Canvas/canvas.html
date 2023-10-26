@@ -33,7 +33,7 @@
         const canvas = document.querySelector('canvas');
         const width = canvas.width = window.innerWidth * 0.9;
         const height = canvas.height = window.innerHeight * 0.9;
-        const ctx = canvas.getContext('2canvasd');
+        const ctx = canvas.getContext('2d');
 
         ctx.fillStyle = "rgb(100,40,29)"
         curX = 0
@@ -67,12 +67,16 @@
             }
 
             console.log(curX)
+            console.log(curY)
+
             requestAnimationFrame(draw);
         }
 
+
+
         canvas.addEventListener("mousemove",(e)=>{
-            curX = e.clientX
-            curY = e.clientY
+            curX = e.clientX - canvas.getBoundingClientRect().left
+            curY = e.clientY - canvas.getBoundingClientRect().top
         })
 
         draw();
