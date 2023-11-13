@@ -257,5 +257,23 @@ Overview of CSS
 - Web Apps Modeling
 
 ### Reading Material & Refs
-- Lectures > WebE > Reading Material 
+- Lectures > WebE > Reading Material
 
+## Lecture 16: Back-End (Part 1)
+- Servers, Http, URLs
+
+### Reading Material & Refs
+- [MDN > Intro to Server side](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction)
+- [MDN > Server Side](https://developer.mozilla.org/en-US/docs/Learn/Server-side)
+
+## Lecture 17: Back-End (Part 2)
+- Node.js 
+
+### Reading Material & Refs
+- [Node.JS & Express.JS Full Course 0-3:40](https://www.youtube.com/watch?v=Oe421EPjeBE&t=22279s) 
+
+## Lecture 18: Back-End (Part 3)
+- Express JS
+
+### Reading Material & Refs
+- [Node.JS & Express.JS Full Course 3:40-End](https://www.youtube.com/watch?v=Oe421EPjeBE&t=22279s) 
