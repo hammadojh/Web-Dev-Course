@@ -7,3 +7,5 @@ Lectures/.DS_Store
 Lectures/.DS_Store
 *.docx
 Lectures/.DS_Store
+*/node_modules
+**/node_modules/**

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form_1" action="./form" method="POST">
+        <input type="text" name="name">
+        <input type="submit" value="Submit Fetch">
+    </form>
+    
+    <form id="form_2" action="./form" method="POST">
+        <input type="text" name="name">
+        <input type="submit" value="Submit Form">
+    </form>
+    <script>
+
+        // form 1
+        const form_1 = document.querySelector("#form_1")
+        form_1.addEventListener("submit",(e)=>{
+            e.preventDefault()
+            fetch("./form",{
+                method:"POST",
+                headers: {
+                    "Content-Type": "application/json", // Set the content type to JSON
+                },
+                body:'{"name":"Omar"}'
+            })
+        })
+
+    </script>
+</body>
+</html>

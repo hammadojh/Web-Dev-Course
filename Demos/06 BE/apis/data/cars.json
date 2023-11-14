@@ -1,0 +1,37 @@
+[
+    {
+        "make": "Toyota",
+        "model": "Corolla",
+        "year": 2020,
+        "color": "Silver",
+        "price": 19000
+    },
+    {
+        "make": "Honda",
+        "model": "Civic",
+        "year": 2020,
+        "color": "Blue",
+        "price": 17000
+    },
+    {
+        "make": "Ford",
+        "model": "Mustang",
+        "year": 2021,
+        "color": "Red",
+        "price": 25000
+    },
+    {
+        "make": "Tesla",
+        "model": "Model 3",
+        "year": 2022,
+        "color": "Black",
+        "price": 35000
+    },
+    {
+        "make": "Chevrolet",
+        "model": "Camaro",
+        "year": 2019,
+        "color": "Yellow",
+        "price": 23000
+    }
+]
