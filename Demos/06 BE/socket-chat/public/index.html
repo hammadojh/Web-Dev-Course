@@ -69,24 +69,28 @@
     </form>
     <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
     <script>
+        // Establish a connection to the server using Socket.IO
         var socket = io();
 
+        // Retrieve the form and input elements from the HTML
         var form = document.getElementById('form');
         var input = document.getElementById('input');
 
+        // Add an event listener for the 'submit' event on the form
         form.addEventListener('submit', function (e) {
-            e.preventDefault();
+            e.preventDefault(); // Prevent the default form submit action
             if (input.value) {
-                socket.emit('message', input.value);
-                input.value = '';
+                socket.emit('message', input.value); // Send the message to the server
+                input.value = ''; // Clear the input field after sending
             }
         });
 
+        // Listen for 'message' events from the server
         socket.on('message', function (msg) {
-            var item = document.createElement('li');
-            item.textContent = msg;
-            messages.appendChild(item);
-            window.scrollTo(0, document.body.scrollHeight);
+            var item = document.createElement('li'); // Create a new list item
+            item.textContent = msg; // Set the text of the item to the received message
+            messages.appendChild(item); // Add the new item to the messages list
+            window.scrollTo(0, document.body.scrollHeight); // Scroll to the bottom of the page
         });
     </script>
 </body>
