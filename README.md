@@ -276,4 +276,30 @@ Overview of CSS
 - Express JS
 
 ### Reading Material & Refs
-- [Node.JS & Express.JS Full Course 3:40-End](https://www.youtube.com/watch?v=Oe421EPjeBE&t=22279s) 
+- [Node.JS & Express.JS Full Course 3:40-End](https://www.youtube.com/watch?v=Oe421EPjeBE&t=22279s)
+
+## Lecture 19: Back-End (Part 4)
+- Databases, MongoDB
+
+### Reading Material & Refs
+- https://www.mongodb.com/
+- https://mongoosejs.com/
+
+### Class Activities
+- Do BE 04 Exercises in class
+
+## Lec 20: Socket.io
+- WebSocket, SocketIO
+
+### Reading Material & Refs
+- [MDN > WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+- [MDN > Writing WebSocket Servers](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers)
+- [Socket.io](https://socket.io/docs/v4/tutorial/introduction)
+- [WebSockets vs HTTP - Ably](https://ably.com/topic/websockets-vs-http)
+- [WebSockets vs HTTP - Oxylabs](https://oxylabs.io/blog/websocket-vs-http)
+- [How Are HTTP and WebSocket Different - Wallarm](https://www.wallarm.com/what/websocket-vs-http-how-are-these-2-different)
+- [WebSocket - Wikipedia](https://en.wikipedia.org/wiki/WebSocket)
+- [What is WebSocket - KnowledgeHut](https://www.knowledgehut.com/blog/web-development/what-is-websocket)
+- [WebSockets - Ably](https://ably.com/topic/websockets)
+- [How WebSocket Works - Socket.IO](https://socket.io/docs/v4/how-it-works/)
+- [Getting Started with WebSocket - DEV Community](https://dev.to/cglikpo/getting-started-with-socket-io-7m4#:~:text=,broadcast%20them%20to%20other%20client)
