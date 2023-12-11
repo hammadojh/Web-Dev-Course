@@ -265,25 +265,36 @@ Overview of CSS
 ### Reading Material & Refs
 - [MDN > Intro to Server side](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction)
 - [MDN > Server Side](https://developer.mozilla.org/en-US/docs/Learn/Server-side)
+- [Server-side website programming first steps](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps)
+- [Client-Server](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview)
+- [Server side frameworks](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks)
 
 ## Lecture 17: Back-End (Part 2)
 - Node.js 
 
 ### Reading Material & Refs
-- [Node.JS & Express.JS Full Course 0-3:40](https://www.youtube.com/watch?v=Oe421EPjeBE&t=22279s) 
+- [Node.JS & Express.JS Full Course 0-3:40](https://www.youtube.com/watch?v=Oe421EPjeBE&t=22279s)
+- [W3Scool Node.js](https://www.w3schools.com/nodejs/)
+- [Learn Node.js from nodejs.com](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+- [Node.js Reference](https://nodejs.org/docs/latest/api/)
 
 ## Lecture 18: Back-End (Part 3)
 - Express JS
 
 ### Reading Material & Refs
 - [Node.JS & Express.JS Full Course 3:40-End](https://www.youtube.com/watch?v=Oe421EPjeBE&t=22279s)
+- [Express.js Website Getting Started, Guide & API Reference](https://expressjs.com)
+- [Express.js Website Guide](https://expressjs.com/en/starter/installing.html)
+- [MDN > Express web framework (Until Tutorial Part 7)](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
+
 
 ## Lecture 19: Back-End (Part 4)
 - Databases, MongoDB
 
 ### Reading Material & Refs
-- https://www.mongodb.com/
-- https://mongoosejs.com/
+- [Exercises > BE 4 Exercises](https://github.com/hammadojh/Web-Dev-Course/blob/main/Exercises/06%20BE/BE%205%20Exercises.pdf)
+- [MongoDB Website Guide & Reference](https://www.mongodb.com/)
+- [Mongoose Webiste Quick Start, Guides & Reference](https://mongoosejs.com/)
 
 ### Class Activities
 - Do BE 04 Exercises in class
@@ -292,6 +303,7 @@ Overview of CSS
 - WebSocket, SocketIO
 
 ### Reading Material & Refs
+- [Exercises > BE 05 Exericises](https://github.com/hammadojh/Web-Dev-Course/blob/main/Exercises/06%20BE/BE%205%20Exercises.pdf)
 - [MDN > WebSockets](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 - [MDN > Writing WebSocket Servers](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API/Writing_WebSocket_servers)
 - [Socket.io](https://socket.io/docs/v4/tutorial/introduction)
@@ -311,6 +323,7 @@ Overview of CSS
 Delivering apps to the web
 
 ### Reading Material & Refs
+- [Exercices > Dep 01 Exericises](https://github.com/hammadojh/Web-Dev-Course/blob/main/Exercises/07%20DEP/DEP%2001%20Exercises.pdf)
 - [Web Apps deployment](https://www.spaceotechnologies.com/blog/web-app-deployment/)
 - [Web deployment process] https://www.wgu.edu/blog/breaking-down-web-application-deployment-
 process2311.html
