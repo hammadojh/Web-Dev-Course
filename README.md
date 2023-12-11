@@ -303,3 +303,37 @@ Overview of CSS
 - [WebSockets - Ably](https://ably.com/topic/websockets)
 - [How WebSocket Works - Socket.IO](https://socket.io/docs/v4/how-it-works/)
 - [Getting Started with WebSocket - DEV Community](https://dev.to/cglikpo/getting-started-with-socket-io-7m4#:~:text=,broadcast%20them%20to%20other%20client)
+
+### Class Activities
+- Do BE 05 Exercises in the class
+
+## Lec 21: Deployment
+Delivering apps to the web
+
+### Reading Material & Refs
+- [Web Apps deployment](https://www.spaceotechnologies.com/blog/web-app-deployment/)
+- [Web deployment process] https://www.wgu.edu/blog/breaking-down-web-application-deployment-
+process2311.html
+- [Deploying web apps] https://adamosoft.com/blog/website-development/deploy-web-applications/
+
+### Class Activities
+- Do DEP 01 Exercises in class
+
+## Let 22: Security (Part 1)
+Security Principles, Authentication
+
+### Reading Material & Refs
+- Ch16 (16.1 - 16.2) of Fundamental of Web Dev Book (See Exercises > 08 SEC)
+- [Basic Auth in Node](https://www.geeksforgeeks.org/basic-authentication-in-node-js-using-http-header/)
+
+### Class Activities
+- Reading book chapter and answer the quiz
+
+## Let 22: Security (Part 2)
+Cryptography, HTTPS, Best Practices, Common Threat Vectors
+
+### Reading Material & Refs
+- Ch16 (16.3 - 16.7) of Fundamental of Web Dev Book (See Exercises > 08 SEC)
+
+### Class Activities
+- Reading book chapter and answer the quiz
