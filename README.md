@@ -6,8 +6,9 @@ Welcome to the Web Engineering and Development Course.
 ## The course & Instructor
 This course introduces the basics of Web development and engineering. It will be offered by Dr. Omar Hammad in King Fahd University of Petroleum and Minerals for ICS/SWE junior students in Fall 2023. 
 
-## The lecture videos
+<!-- ## The lecture videos
 The lecture videos are available in the [Web Engineering & Development](https://www.youtube.com/playlist?list=PLGNvUlVaYL4YMZ4l_yvvAYMOEOZ22xyme) youtube playlist 
+-->
 
 ## Contents of the repository
 This repostory contains all of the supporting material that the instructor refer to in the course lectures. They include:
